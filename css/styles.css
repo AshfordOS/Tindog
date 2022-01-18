@@ -142,15 +142,7 @@ h2 {
   padding: 3% 2%;
 }
 
-@media (max-width: 1028px) {
-  .header-img {
-    position: static;
-    transform: rotate(0);
-  }
-  #title {
-    text-align: center;
-  }
-}
+/* CTA Section */
 
 #cta {
   background-color: #ff4c68;
@@ -169,6 +161,8 @@ h2 {
   margin: 5% 3% 0 0;
 }
 
+/* Footer Section */
+
 #footer {
   background-color: #fff;
   text-align: center;
@@ -176,5 +170,16 @@ h2 {
 }
 
 .footer-img{
-  margin: 0 10px 20px;
+  margin: 20px 10px;
+}
+
+
+@media (max-width: 1028px) {
+  .header-img {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
 }
